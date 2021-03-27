@@ -1,0 +1,6 @@
+/Users/nhivo/Desktop/CS/VS/InheritenceCsharp/InheritenceCsharp/bin/Debug/InheritenceCsharp.exe
+/Users/nhivo/Desktop/CS/VS/InheritenceCsharp/InheritenceCsharp/bin/Debug/InheritenceCsharp.pdb
+/Users/nhivo/Desktop/CS/VS/InheritenceCsharp/InheritenceCsharp/obj/Debug/InheritenceCsharp.csprojAssemblyReference.cache
+/Users/nhivo/Desktop/CS/VS/InheritenceCsharp/InheritenceCsharp/obj/Debug/InheritenceCsharp.csproj.CoreCompileInputs.cache
+/Users/nhivo/Desktop/CS/VS/InheritenceCsharp/InheritenceCsharp/obj/Debug/InheritenceCsharp.exe
+/Users/nhivo/Desktop/CS/VS/InheritenceCsharp/InheritenceCsharp/obj/Debug/InheritenceCsharp.pdb
