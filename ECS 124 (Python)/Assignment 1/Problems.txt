@@ -1,0 +1,20 @@
+2.4 ) Create functions for the different tasks and calling those functions within your programs for:
+
+a. Reads a value of temperature in Celsius degrees (oC) and converts it into a tempera- ture in Fahrenheit degrees (oF).
+b. Reads the length of the two smallest sides of a right triangle and calculates the length of the hypotenuse (the largest side, opposite to the right angle).
+c. Reads a string and converts it to capital letters, printing the result.
+d. Adapt the previous program to read the string from a file, whose name is entered by
+the user.
+e. Reads a string and checks if it is a palindrome, i.e. if it reads the same when it is
+reversed. Implement different versions using functions over strings, and cycles
+(for/while).
+f. Reads three numerical values from the standard input, and calculates the largest and
+the smallest value.
+
+2.5)  Define a class to represent a rectangle, where the attributes should be height and length.
+
+a. Implement the following methods: constructor; calculate area; calculate perimeter;
+calculate length of the diagonal.
+b. Test your class defining instances of different sizes.
+
+2.6)   Extend the class for handling sequences developed in this chapter, defining a sub-class to handle DNA sequences. Implement a method to validate if the sequence is valid (i.e. if it only contains the symbols “A”, “C”, “G”, or “T”). Add other methods that you think may be useful in this context.

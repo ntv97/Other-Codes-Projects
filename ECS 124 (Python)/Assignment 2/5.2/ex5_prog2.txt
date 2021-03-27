@@ -1,0 +1,4 @@
+The input line does contain what looks like a dna sequence of length at least three, and it is ACTGCCCGGAATG 
+The input line is 
+ACTGCCCGGAATG
+

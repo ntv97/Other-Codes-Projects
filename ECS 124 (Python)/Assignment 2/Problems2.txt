@@ -1,0 +1,38 @@
+2)   
+
+Download the Python program needleman.py. Be sure you have it running and try to understand how it works. This is a Python version of the Needleman-Wunsch alignment algorithm that we studied in class, using the dynamic programming recurrence relations, instead of an alignment graph. Even though you might not learn all the Python constructs used in this program, you should be able to understand what the different parts of the program does.
+Modify the program so that it asks the user for a match value V, a mismatch cost Cm, and an indel cost Im. It should read the inputs from the keyboard and assigns them to variables. Modify the program so that it finds the maximum value of any possible alignments of the two input strings, where the objective function is
+
+		maximize{V * (#matches) - Cm * (#mismatches) - Im * (#indels)}
+
+Run your program for the two strings in Exercise 1. If you use the same weights, do you find the same
+results? Turn in the code (modification part only is fine too) and results.
+
+
+4.1) 
+
+Write a Python function that, given a DNA sequence, allows to detect if there are re- peated sequences of size k (where k should be passed as an argument to the function). The result should be a dictionary with sub-sequences as keys, and their frequency as val-
+ues.
+
+4.3)
+
+In many proteins present in the membrane, there is a conserved motif that allows them to be identified in the transport process of these protein by the endosomes to be degraded in the lysosomes. This motif occurs in the last 10 positions of the protein, being character- ized by the aminoacid tyrosine (Y), followed by any two aminoacids and terminating in a hydrophobic aminoacid of the following set – phenylalanine (F), tyrosine (Y) or threo- nine (T).
+a. Write a function that, given a protein (sequence of aminoacids), returns an integer value indicating the position where the motif occurs in the sequence or −1 if it does not occur.
+
+b. Write a function that, given a list of protein sequences, returns a list of tuples, con- taining the sequences that contain the previous motif (in the first position of the tuple), and the position 
+where it occurs (in the second position). Use the previous function.
+
+4.6)
+
+Files from UniProt saved in the FASTA format have a specific header structure given by: db|Id|Entry Protein OS = Organism [GN = Gene] PE = Existence SV = Version
+Write a function that using regular expressions parses a string in this format and returns a dictionary with the different fields (the key should be the field name). Note the part in right brackets is optional, the parts in italics are the values of the fields, while the parts in upper case are constant placeholders.
+
+
+5.2)
+
+The meaning of [ ,.;:?] in the regular expression is that the digits of an accession number must be followed by any ONE of the six characters listed between the brackets [...]. So this is an OR of the six characters. Now in the program ex5_program2.py (it looks for a DNA string in an input line) we used “|” to indicate an OR. That regular expression had (A|T|C|G|a|t|c|g). Replace that with [ATCGatcg] to see if the program works. Use ex5_testfile.txt as the test input file. Turn in the result.
+
+
+6.1. 
+
+By setting V to 1, and Cm and Im to zero, the program needleman.py (see Exercise 2) will produce the length of the longest common subsequence (LCS) between the two sequences. That is the alignment that simply maximizes the number of matches that can be obtained, without regard for how many spaces and mismatches are involved. The LCS between two strings can be a proxy of the similarity for two strings. Create a pair of random strings of length 30 each and compute the LCS of those two strings. Turn in a description of your results for each step.

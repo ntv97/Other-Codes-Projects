@@ -1,0 +1,22 @@
+Exercise 3. Create Python-BLAST
+
+
+In this exercise we will create a toy blast program that we will call Python-BLAST. It will use the same principles as BLAST does, for finding seed words first (k-meres) and then extending them to find potential alignments. First, please download the five k-mere programs from Canvas, under Resources->Lab3. Start from kmer1.py and work your way to kmerfirst.py, executing each code and understanding how it works. The new elements of Python that you will use dict datatype to implement the hash, please refer the information in the internet if necessary. 
+
+The program kmerfirst.py finds the first position of each of the different kmers of length k. This program will be the starting point for your Python-BLAST program. Your program should do the following things:
+
+•	Read in from a file a query string Q.
+•	For k = 4, use program kmerfirst.py to find the first location of each different k-mer in Q. 
+•	Successively read in one string at a time from a file called pythonblastdata.txt that is located again under the Resources>>Lab 3.When a string S is read in, scan through its 4-mers, using the same hash as before. For this, extract and adapt what you need from kmerfirst.py.
+•	(30 pts) Whenever a 4-mer in S is determined to be in Q, extract the location of the first occurrence of that 4-mer in Q. Then scan left from the k-mer in Q and in S, as long as you find matching characters. Repeat to the right. Let L denote the length of the whole match obtained in this way. 
+
+•		*** If L is greater than 7, then print a message that a good HSP has been found between Q and S, and print notice that the same HSP gets reported multiple times. *** --p1.py--
+
+
+•	*** Now we will alter the code so that HSP are not reported multiple times. (Hint: Record the HSPs and save them using dict, and check whether HSP exists in the dict or not when you get the HSP).
+***   --p2.py--
+
+•	*** We would like to process strings that are more than a single line long. So in the file each string will be held in consecutive lines, with strings separated by blank lines. That is analogous to each string being a paragraph instead of just a single line. Please modify your code so that you can read S with multiple lines (reading Q with multiple lines is not necessary).  *** --p3.py--
+
+
+•	*** Finally, we will make it so that if a k-mer that is present in the database string is also in the query string in multiple locations, then a search should be made from each occurrence of the k-mer in the query string, spanning outward left and right of each occurrence. To do that use kmer4.py that is found under the Resources>Lab 3 (file kmer4.txt) to build up a list of all occurrences of each distinct k-mer in the query string, and use it to implement this change.  *** --p4.py--
