@@ -1,6 +1,0 @@
-/Users/nhivo/Desktop/CS/C#/PolymorphismCsharp/bin/Debug/PolymorphismCsharp.exe
-/Users/nhivo/Desktop/CS/C#/PolymorphismCsharp/bin/Debug/PolymorphismCsharp.pdb
-/Users/nhivo/Desktop/CS/C#/PolymorphismCsharp/obj/anycpu/Debug/PolymorphismCsharp.csprojAssemblyReference.cache
-/Users/nhivo/Desktop/CS/C#/PolymorphismCsharp/obj/anycpu/Debug/PolymorphismCsharp.csproj.CoreCompileInputs.cache
-/Users/nhivo/Desktop/CS/C#/PolymorphismCsharp/obj/anycpu/Debug/PolymorphismCsharp.exe
-/Users/nhivo/Desktop/CS/C#/PolymorphismCsharp/obj/anycpu/Debug/PolymorphismCsharp.pdb
